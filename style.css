@@ -1,0 +1,22 @@
+nav{
+  background-color: darkgreen;
+ 
+  
+}
+ul{
+
+  list-style: none;
+
+}
+li{
+  display: inline;
+  text-align: center;
+}
+li a{
+
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: #ffff;
+
+}
