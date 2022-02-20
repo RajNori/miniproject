@@ -45,9 +45,22 @@ table {
 }
 
 /* code starts here */
+*{
+  box-sizing: border-box;
+}
+body{
+background-color: #D0DDEA;
+}
 
+#main-heading{
+text-align: center;
+font-family:'Roboto',sans-serif;
+font-size: 1.5rem;
+padding: 25pt;
+margin-right: 50px;
+}
 .navigation-bar{
-height: 90px;
+height: 64px;
 background-color: #11122b;
 color: #cbcbcb;
 display: flex; 
@@ -59,7 +72,7 @@ padding:30px 5px 10px 5px ;
 .list-item-styling{
   display: inline-block;
   margin: 20px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 a {
@@ -76,42 +89,52 @@ a {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-/* ul{
-  list-style: none;
-  
-}
-li{
-  display: inline;
-  text-align: center;
-  
-  
-}
-li a{
-position: relative;
-top: 70px;
-right: 5px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 1.25rem;
+figcaption {
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #cbcbcb;
+  font-size: 1.2rem;
+
 }
-h1 h2{
-  margin: 20px;
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: fit-content;
 }
 
-.image-align{
+#position-content
+{
 display: block;
-} */
+background-color: #11122b;
+margin: auto;
+max-width: 100vw;
+padding: 15px 25px;
+color: #cbcbcb;
+text-align: center;
+line-height: 1.8;
+
+}
+#name{
+  border-radius: 2px;
+  border:skyblue;
+}
+#email{
+  border-radius: 2px;
+  margin-top: 5px;
+  border: skyblue;
+  position: relative;
+  left:2px;
+}
+#btn{
+  padding: 5px;
+  background:whitesmoke;
+  position: relative;
+  left: 20pt;
+}
+#fix-2{
+
+  position: relative;
+  left: 17pt;
+  padding: 2px;
+  margin:10px;
+}
+
